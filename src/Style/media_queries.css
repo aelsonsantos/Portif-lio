@@ -25,6 +25,14 @@
         font-size: 2rem; 
         margin-right:10rem;
     }
+    .projetos_container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .projetos_box{
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
     }
     @media (max-width: 1366px){
     .cabecalho{
@@ -98,11 +106,10 @@
     .projetos_descricao{
         width: 100%;
     }
-    .projetos_descricao p{
+    /*.projetos_descricao p{
         margin-bottom: 2rem;
-        display: block;
         font-size: 1.5rem;
-    }
+    }*/
     .projetos_descricao h3{
         margin-bottom: 2rem;
         font-size: 2rem;
