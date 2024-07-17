@@ -206,6 +206,9 @@
     .sobre_texto{
         margin: 0 0 0 0;
     }
+    .sobre_texto p{
+        padding: 0;
+    }
     .sobre_img{
         margin-top: 2rem;
         padding-left: 0;
