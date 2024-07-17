@@ -12,13 +12,27 @@
     --verde-principal:#b4df37;
     --cinza1-fundo:#666666;
 }
-@media(min-width: 1400px){
+@media (min-width: 1601px){
     .sobre_img img{
         width:29rem;
         height:25rem;
     }
     .sobre_texto p{
-        padding-left: 10rem;
+        padding-left: 1rem;
+     }
+     .cabecalho ul{
+        gap: 1.2em;
+        font-size: 2rem; 
+        margin-right:10rem;
+    }
+}
+@media(max-width: 1600px){
+    .sobre_img img{
+        width:29rem;
+        height:29rem;
+    }
+    .sobre_texto p{
+        padding-left: 2rem;
      }
      .cabecalho ul{
         gap: 1.2em;
