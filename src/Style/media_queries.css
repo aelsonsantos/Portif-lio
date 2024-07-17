@@ -223,6 +223,9 @@
     .projetos_descricao p{
         display: none;
     }
+    .projetos_box{
+        margin: 0;
+    }
     .icones_container{
         display: block;
     }
