@@ -25,6 +25,9 @@
         font-size: 2rem; 
         margin-right:10rem;
     }
+     .projetos_descricao p{
+        display: block;
+    }
     }
     @media (max-width: 1366px){
     .cabecalho{
@@ -66,9 +69,6 @@
     }
     .projetos_descricao{
         font-size: 0.5rem;
-    }
-     .projetos_descricao p{
-        display: block;
     }
     .projetos_descricao h3{
         margin-bottom: 3rem;
